@@ -11,12 +11,7 @@ dependencies:
     path: ../
   mno_shared:
     path: ../../shared
-  universal_io: ^2.0.4
-
-
-dependency_overrides:
-  path: ^1.8.3
-
+  universal_io:
 
 dev_dependencies:
-  lints: ^2.0.0
+  lints:

@@ -5,8 +5,8 @@ publish_to: none
 homepage: https://iridium.rocks
 
 environment:
-  sdk: ">=2.17.0 <3.0.0"
-  flutter: ">=1.17.0"
+  sdk: '>=2.17.0 <3.0.0'
+  flutter: '>=1.17.0'
 
 dependencies:
   flutter:
@@ -25,32 +25,28 @@ dependencies:
     path: ../components/streamer
   mno_webview:
     path: ../components/webview
-  cupertino_icons: ^1.0.5
-  dartx: ^1.1.0
-  dfunc: ^0.8.1
-  fimber: ^0.6.6
-  flutter_bloc: ^8.1.1
-  flutter_fimber: ^0.6.5
-  flutter_inappwebview: ^5.7.2+3
-  flutter_spinkit: ^5.1.0
-  fluttertoast: ^8.1.2
-  path_provider: ^2.0.11
+  cupertino_icons:
+  dartx:
+  dfunc:
+  fimber:
+  flutter_bloc:
+  flutter_fimber:
+  flutter_inappwebview:
+  flutter_spinkit:
+  fluttertoast:
+  path_provider:
   flutter_xlider:
     git:
       url: https://github.com/Ali-Azmoud/flutter_xlider.git
       ref: master # branch name
 
 dev_dependencies:
-  flutter_lints: ^2.0.1
+  flutter_lints:
   flutter_test:
     sdk: flutter
 
-dependency_overrides:
-  path: ^1.8.3
-
 # The following section is specific to Flutter.
 flutter:
-
   # To add assets to your package, add an assets section, like this:
   assets:
     - assets/images/
